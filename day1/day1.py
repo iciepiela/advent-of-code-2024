@@ -1,7 +1,7 @@
 import numpy as np
 
 # load and prepare data
-data = np.loadtxt("input.txt", dtype=int)
+data = np.loadtxt("day1/input.txt", dtype=int)
 
 llist = data[:, 0]
 rlist = data[:, 1]
