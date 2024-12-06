@@ -23,20 +23,6 @@ with open("day4/input.txt","r") as file:
 
 result1 = 0
 
-# data_vertical = [[] for _ in range(len(data[0]))]
-
-# for i in range(len(data)):
-#     for j in range(len(data[0])):
-#         data_vertical[i].append(data[j][i])
-
-# for line in data:
-#     result += len(re.findall(r"XMAS|SMAX", line))
-
-# for line in data_vertical:
-#     vertical_line = ''.join(line)
-#     result += len(re.findall(r"XMAS|SMAX", vertical_line))
-
-
 def check_xmas(i, j, di, dj):
     pattern = "XMAS"
     for k in range(len(pattern)):
