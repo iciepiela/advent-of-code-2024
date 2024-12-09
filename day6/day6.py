@@ -22,8 +22,8 @@ with open("day6/input.txt","r") as file:
 # "#.........",
 # "......#..."]
 
-for i in range(len(data)):
-    data[i] = list(data[i])
+# for i in range(len(data)):
+#     data[i] = list(data[i])
 
 for i in range(len(data)):
     if '^' in data[i]:
