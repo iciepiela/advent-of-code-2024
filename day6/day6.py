@@ -32,10 +32,6 @@ for i in range(len(data)):
 
 
 
-
-
-
-
 directions = {
     '^': (-1, 0, '>'),
     'v': (1, 0, '<'),
